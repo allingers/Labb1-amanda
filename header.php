@@ -2,7 +2,6 @@
 <html>
 <head>
 	<meta charset="UTF-8" />
-	<title><?php the_title();?></title>
     <?php wp_head(); ?>
 </head>
 <body>
@@ -17,11 +16,9 @@
 					</div>
 					<div class="col-sm-6 hidden-xs">
 						<form id="searchform" class="searchform">
-							<div>
 								<?php 
 								get_search_form();
 								?>
-							</div>
 						</form>
 					</div>
 					<div class="col-xs-4 text-right visible-xs">
